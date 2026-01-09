@@ -2,7 +2,7 @@
 Code of "HCLAA: Hierarchical Contrastive Learning with Adaptive Attention"
 
 ## Framework
-![HSACC Framework](figure/framework.jpg)
+![HSACC Framework](figure/architecture.jpg)
 
 ## Requirements
 
