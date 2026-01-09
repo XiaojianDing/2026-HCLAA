@@ -2,7 +2,7 @@
 Code of "HCLAA: Hierarchical Contrastive Learning with Adaptive Attention"
 
 ## Framework
-![HCLAA Framework](https://raw.githubusercontent.com/XiaojianDing/2026-HCLAA/master/figure/architecture.jpg)
+![HCLAA Framework](https://raw.githubusercontent.com/XiaojianDing/2026-HCLAA/master/Figure/architecture.jpg)
 
 ## Requirements
 
