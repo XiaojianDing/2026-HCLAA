@@ -10,7 +10,7 @@ from dataloader import load_data
 import torch.nn.functional as F
 
 # 选择数据集
-Dataname = '100leaves'
+Dataname = 'Caltech-5V'
 parser = argparse.ArgumentParser(description='train')
 parser.add_argument('--dataset', default=Dataname)
 parser.add_argument('--batch_size', default=256, type=int)
@@ -33,22 +33,9 @@ def setup_seed(seed):
     random.seed(seed)
     torch.backends.cudnn.deterministic = True
 # 加载数据
-
-if args.dataset == "100leaves":
-    args.con_epochs = 150
-    seed = 100
-if args.dataset == "Fashion":
-    args.con_epochs = 100
-    seed = 1
 if args.dataset == "Caltech-5V":
     args.con_epochs = 100
     seed = 1000000
-if args.dataset == "Cifar10":
-    args.con_epochs = 10
-    seed = 1000
-if args.dataset == "Synthetic3d":
-    args.con_epochs = 150
-    seed = 100
 
 dataset, dims, view, data_size, class_num = load_data(args.dataset)
 data_loader = torch.utils.data.DataLoader(
