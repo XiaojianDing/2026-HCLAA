@@ -1,4 +1,3 @@
-%# 2026-HCLAA
 Code of "HCLAA: Hierarchical Contrastive Learning with Adaptive Attention" (Information Sciences, 2026)
 
 ## Framework
